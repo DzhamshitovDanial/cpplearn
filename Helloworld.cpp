@@ -9,6 +9,7 @@ int main()
     std::cin >> x;
     std::cout << "Hello, world" <<'\n';
     std::cout << "You entered:" << x << std::endl;
-    std::cout << n;
+    std::cout << n
+            +x;
     return 0;
 }
